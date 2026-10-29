@@ -4,6 +4,7 @@ name: CI
 on:
   push:
     branches: [main]
+  workflow_dispatch:
 
 env:
   IMAGE_NAME: workshop-app
